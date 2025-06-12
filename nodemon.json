@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": ["node_modules", "dist"],
+  "execMap": {
+    "ts": "npx rimraf dist && npx tsc -b && npx tsc-alias && node --inspect dist/main.js"
+  },
+  "watch": ["**/*"],
+  "ext": "ts,json"
+}
