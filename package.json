@@ -1,0 +1,25 @@
+{
+  "name": "onlycore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "build": "tsc -b",
+    "build:watch": "tsc -b -w",
+    "start:watch": "node --watch dist/main.js",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "Artur Ferreira <arturferreira.dev@gmail.com> (https://github.com/arturferreira-dev)",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "@vitest/coverage-v8": "^3.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  }
+}
